@@ -1,0 +1,37 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "PipelineTD_01",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"FunctionalTesting",
+				"ProceduralMeshComponent",
+				"FunctionalTestingEditor"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "FunctionalTestingEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorTests",
+			"Enabled": true
+		},
+		{
+			"Name": "RuntimeTests",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}
